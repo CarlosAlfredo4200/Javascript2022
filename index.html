@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="01fundamentos/bases/Ejercicios.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav">Ejercicios JavaScript</div>
+    </header>
+    <main>
+      <div>
+        <form class="con" action="">
+          <div>
+            <div class="titulo">Abonados</div>
+
+            <label class="conInput" for="my-input">Nombre: </label>
+            <input class="inp" id="nombre" type="text" name="nombre" />
+          </div>
+          <div>
+            <label class="conInput" for="my-input">Apellido:</label>
+            <input class="inp" id="apellido" type="text" name="apellido" />
+          </div>
+          <div>
+            <label class="conInput" for="my-input">Teléfono:</label>
+            <input class="inp" id="telefono" type="text" name="telefono" />
+          </div>
+          <div>
+            <label class="conInput" for="my-input">Cantidad abono:</label>
+            <input class="inp" id="cantidad" type="text" name="cantidad" />
+          </div>
+          <div>
+            <label class="conInput" for="my-input">Tribuna:</label>
+            <input class="inp" id="tribuna" type="text" name="tribuna" />
+          </div>
+          <button class="btn" type="button" onclick="captura()">Capturar</button>
+
+          <div class="info">
+            <h3>Tribunas habilitadas:</h3>
+            <ul>
+              <li >Sur_Norte</li>
+              <li>Oriental</li>
+              <li>Occidental</li>
+            </ul>
+
+          </div>
+        </form>
+      </div>
+      <div class="resultados">
+        <div class="titulo">Registros: </div>
+        <h1 id="resulNom" class="resul"></h1>
+        <h3 id="resulApe" class="resul"></h3>
+        <p id="resulTel" class="resul"></p>
+        <h4 id="resulTotal" class="resul"></h4>
+        <p id="resulCan" class="resul"></p>
+        <p id="resulTri" class="resul"></p>
+        <br>
+        <h3>Planteamiento del problema:</h3>
+        <p>Nacional/Medellín te contrata para elaborar una aplicación web, que permita crear los abonos del equipo para el próximo año, para ello se reciben datos del cliente como nombre, apellidos, teléfono, cantidad de abonos y la tribuna a la que se desea abonar:
+Sur-Norte: $144000
+Oriental:$215000
+Occidental:$444000
+El programa debe retornar el costo total del abono  y los datos del cliente
+</p>
+      </div>
+    </main>
+    
+    <!--<script src="01fundamentos/switch.js"></script>-->
+  <!--  <script src="01fundamentos/ciclos/while-do-while.js"></script>-->
+  <!-- <script src="01fundamentos/ciclos/for.js"></script>-->
+  <!-- <script src="Clases/problema.js"></script>-->
+    <script src="pruebaLaboral/ejercicioFisFas.js"></script>
+  </body>
+</html>
